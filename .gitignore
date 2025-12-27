@@ -48,6 +48,48 @@ __pycache__/
 *.local
 
 # Testing
+.nyc_output/
+coverage/
+
+# ==================== Local Documentation ====================
+# These files are kept locally but NOT pushed to GitHub
+_local-docs/
+_archived-files/
+*.pdf
+*.rar
+landing-page.html
+
+# Documentation files (kept locally for reference)
+00-COMPLETE_SUMMARY.md
+01-ادوات-الذكاء-الاصطناعي.md
+02-الاجندة-التدريبية.md
+03-امثلة-عملية-قطاع-البترول.md
+04-مكتبة-البرومبتات.md
+05-مشروع-التخرج.md
+06-تمارين-اليوم-الاول.md
+07-تمارين-اليوم-الثاني.md
+08-تمارين-اليوم-الثالث.md
+09-مراجع-اضافية.md
+10-ادوات-ذكاء-اصطناعي-متقدمة.md
+11-العرض-التقديمي-الكامل.md
+12-الانفوجرافيك-البصري.md
+13-برومبتات-متقدمة-ابداعية.md
+13-برومبتات-متقدمة-ابداعية-محسن.html
+13-برومبتات-متقدمة-ابداعية-مودرن.html
+13-برومبتات-متقدمة-ابداعية-نهائي.pdf
+14-افكار-خارج-الصندوق.md
+15-قائمة-الروابط-الشاملة.md
+DEPLOYMENT.md
+DEPLOYMENT_REPORT.md
+EXECUTIVE_SUMMARY.txt
+FINAL_REPORT.md
+INDEX.md
+PASSWORDS.md
+PROJECT_SUMMARY.md
+QUICK_START.md
+START_HERE.md
+SUCCESS.md
+LinkedIn-Post.md
 coverage/
 .coverage
 test-results/
