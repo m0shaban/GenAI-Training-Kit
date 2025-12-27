@@ -35,6 +35,49 @@ body {
   overflow-x: hidden;
 }
 
+.contact-panel {
+  position: fixed;
+  left: 1rem;
+  bottom: 1rem;
+  z-index: 80;
+  background: rgba(5, 9, 20, 0.9);
+  border: 1px solid rgba(102, 126, 234, 0.2);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 14px;
+  padding: 0.9rem 1rem;
+  min-width: 240px;
+  backdrop-filter: blur(10px);
+}
+
+.contact-title {
+  color: var(--cyber-cyan);
+  font-weight: 800;
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.contact-item {
+  display: block;
+  color: #e5e7eb;
+  text-decoration: none;
+  margin: 0.25rem 0;
+  font-weight: 700;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.contact-item:hover {
+  color: var(--cyber-cyan);
+  transform: translateX(-3px);
+}
+
+@media (max-width: 480px) {
+  .contact-panel {
+    left: 0.7rem;
+    right: 0.7rem;
+    min-width: auto;
+  }
+}
+
 /* Typography */
 h1,
 h2,
