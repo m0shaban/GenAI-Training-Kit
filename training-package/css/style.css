@@ -5,14 +5,16 @@
 }
 
 :root {
-  --primary-color: #6366f1;
-  --secondary-color: #8b5cf6;
+  --primary-color: #667eea;
+  --secondary-color: #764ba2;
   --accent-color: #ec4899;
-  --dark-bg: #0f172a;
+  --cyber-cyan: #38bdf8;
+  --dark-bg: #050914;
+  --dark-bg-alt: #0b1021;
   --light-bg: #f8fafc;
-  --text-dark: #1e293b;
-  --text-light: #f1f5f9;
-  --border-color: #e2e8f0;
+  --text-dark: #111827;
+  --text-light: #e5e7eb;
+  --border-color: #1f2a44;
 }
 
 html {
@@ -21,7 +23,10 @@ html {
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, var(--dark-bg) 0%, #1a1f3a 100%);
+  background:
+    radial-gradient(circle at 20% 20%, rgba(102, 126, 234, 0.08), transparent 32%),
+    radial-gradient(circle at 80% 0%, rgba(236, 72, 153, 0.08), transparent 28%),
+    linear-gradient(135deg, var(--dark-bg) 0%, var(--dark-bg-alt) 55%, #0f172a 100%);
   color: var(--text-light);
   overflow-x: hidden;
 }
@@ -1734,7 +1739,7 @@ section li {
   font-weight: 600;
   transition: all 0.3s ease;
   cursor: pointer;
-  border: none;
+  border: 1px solid rgba(102, 126, 234, 0.4);
   font-size: 16px;
   min-height: 44px;
   min-width: 44px;
@@ -1742,27 +1747,30 @@ section li {
   align-items: center;
   justify-content: center;
   -webkit-tap-highlight-color: transparent;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.25), 0 0 0 1px rgba(17, 24, 39, 0.35);
 }
 
 .btn-primary {
-  background: var(--primary-color);
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   color: white;
+  box-shadow: 0 15px 35px rgba(102, 126, 234, 0.35), 0 0 25px rgba(118, 75, 162, 0.35);
 }
 
 .btn-primary:hover {
-  background: var(--secondary-color);
-  transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
+  background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: 0 18px 40px rgba(102, 126, 234, 0.45), 0 0 35px rgba(118, 75, 162, 0.5);
 }
 
 .btn-secondary {
-  background: var(--accent-color);
+  background: linear-gradient(135deg, var(--accent-color), var(--cyber-cyan));
   color: white;
+  box-shadow: 0 12px 32px rgba(236, 72, 153, 0.35), 0 0 22px rgba(56, 189, 248, 0.35);
 }
 
 .btn-secondary:hover {
-  background: #d1366f;
-  transform: translateY(-3px);
+  background: linear-gradient(135deg, var(--cyber-cyan), var(--accent-color));
+  transform: translateY(-3px) scale(1.01);
 }
 
 /* ==================== Footer ==================== */
