@@ -326,12 +326,14 @@ body {
   font-size: 1.3rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
+  color: #1f2937 !important;
 }
 
 .nav-card-description {
   font-size: 0.95rem;
   line-height: 1.6;
   opacity: 0.8;
+  color: #4b5563 !important;
 }
 
 .nav-card.active .nav-card-description {
@@ -400,6 +402,7 @@ body {
   justify-content: space-between;
   margin-bottom: 0.75rem;
   font-weight: 500;
+  color: #1f2937 !important;
 }
 
 .progress-bar {
@@ -467,14 +470,14 @@ body {
 
 .content-item-title {
   font-weight: 700;
-  color: var(--text-dark);
+  color: #1f2937 !important;
   margin-bottom: 0.5rem;
 }
 
 .content-item-description {
   font-size: 0.9rem;
-  color: var(--text-dark);
-  opacity: 0.75;
+  color: #4b5563 !important;
+  opacity: 0.9;
 }
 
 .dashboard-badge {

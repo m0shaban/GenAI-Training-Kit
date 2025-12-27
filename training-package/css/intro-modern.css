@@ -62,7 +62,7 @@
   font-size: 4rem;
   line-height: 1.1;
   margin-bottom: 1.5rem;
-  color: var(--text-dark);
+  color: #1f2937 !important;
   animation: fadeInUp 0.8s ease-out 0.2s both;
 }
 
@@ -90,7 +90,7 @@
 
 .hero-subtitle {
   font-size: 1.3rem;
-  color: var(--text-light);
+  color: #374151 !important;
   margin-bottom: 1rem;
   font-weight: 600;
   animation: fadeInUp 0.8s ease-out 0.4s both;
@@ -98,7 +98,7 @@
 
 .hero-description {
   font-size: 1.1rem;
-  color: var(--text-light);
+  color: #4b5563 !important;
   line-height: 1.8;
   margin-bottom: 2rem;
   max-width: 600px;
@@ -139,7 +139,7 @@
 
 .stat-label {
   font-size: 0.9rem;
-  color: var(--text-light);
+  color: #4b5563 !important;
   font-weight: 500;
 }
 
@@ -428,7 +428,7 @@
 
 .day-header h3 {
   font-size: 1.5rem;
-  color: var(--text-dark);
+  color: #1f2937 !important;
 }
 
 .day-duration {
@@ -481,7 +481,7 @@
 }
 
 .session-title {
-  color: var(--text-dark);
+  color: #1f2937 !important;
   font-weight: 500;
 }
 
@@ -494,7 +494,7 @@
 }
 
 .day-outcome strong {
-  color: var(--primary-color);
+  color: #6366f1 !important;
 }
 
 .schedule-cta {
@@ -534,7 +534,7 @@
 
 .access-headline {
   font-size: 1.3rem;
-  color: var(--text-light);
+  color: #4b5563 !important;
   font-weight: 500;
 }
 
@@ -579,11 +579,11 @@
 .access-card h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: var(--text-dark);
+  color: #1f2937 !important;
 }
 
 .access-card p {
-  color: var(--text-light);
+  color: #4b5563 !important;
   line-height: 1.8;
   margin-bottom: 1.5rem;
 }
@@ -596,7 +596,7 @@
 
 .benefits-list li, .offers-list li {
   padding: 0.75rem 0;
-  color: var(--text-dark);
+  color: #1f2937 !important;
   font-size: 1.05rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
