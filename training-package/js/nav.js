@@ -104,8 +104,30 @@
     document.body.appendChild(panel);
   }
 
+  function injectFloatingCTA() {
+    if (document.querySelector('.floating-cta-container')) return;
+    const cta = document.createElement('div');
+    cta.className = 'floating-cta-container';
+    cta.innerHTML = `
+      <a href="https://wa.me/201121891913" target="_blank" rel="noopener" class="floating-btn whatsapp-btn" aria-label="تواصل واتساب">
+        <span class="tooltip">واتساب</span>
+        📱
+      </a>
+      <a href="tel:01121891913" class="floating-btn call-btn" aria-label="اتصال مباشر">
+        <span class="tooltip">اتصال</span>
+        📞
+      </a>
+      <a href="mailto:eng.mohamed0shaban@gmail.com" class="floating-btn email-btn" aria-label="إرسال إيميل">
+        <span class="tooltip">إيميل</span>
+        ✉️
+      </a>
+    `;
+    document.body.appendChild(cta);
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
     initMobileNavToggle();
     injectContactPanel();
+    injectFloatingCTA();
   });
 })();
