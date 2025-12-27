@@ -11,13 +11,16 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
-                <span class="logo-text">🚀 GenAI Training Kit</span>
+                <img src="assets/images/logo.png" alt="GenAI PowerUP Logo" style="height: 50px; margin-right: 10px;">
+                <span class="logo-text">GenAI PowerUP</span>
             </div>
             <ul class="nav-menu">
                 <li><a href="#about" class="nav-link">عن البرنامج</a></li>
                 <li><a href="#content" class="nav-link">المحتوى</a></li>
                 <li><a href="#features" class="nav-link">المميزات</a></li>
+                <li><a href="#packages" class="nav-link">الباقات</a></li>
                 <li><a href="#schedule" class="nav-link">الجدول الزمني</a></li>
+                <li><a href="#gallery" class="nav-link">معرض الصور</a></li>
                 <li class="cta-button"><a href="#access" class="nav-link access-btn">البدء الآن</a></li>
             </ul>
         </div>
@@ -25,10 +28,13 @@
 
     <!-- Hero Section -->
     <section class="hero">
+        <div class="hero-banner">
+            <img src="assets/images/banner.png" alt="GenAI PowerUP Banner" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 15px; margin-bottom: 30px; box-shadow: 0 8px 32px rgba(99, 102, 241, 0.3);">
+        </div>
         <div class="hero-content">
-            <h1 class="hero-title">تمكين الشركات بأدوات الذكاء الاصطناعي</h1>
-            <p class="hero-subtitle">برنامج تدريبي شامل يجمع بين النظرية والتطبيق العملي</p>
-            <p class="hero-description">اكتسب المهارات اللازمة لاستخدام أدوات GenAI الحديثة لزيادة الإنتاجية والإبداع والابتكار في مؤسستك</p>
+            <h1 class="hero-title">حوّل شركتك للعصر الرقمي في 4 أيام</h1>
+            <p class="hero-subtitle">برنامج GenAI PowerUP التدريبي - حقيبة مرنة تناسب كل احتياجاتك</p>
+            <p class="hero-description">وفّر 40% من وقت موظفينك | ضاعف الإنتاجية | احصل على نتائج فورية من اليوم الأول</p>
             <div class="hero-cta">
                 <button class="btn btn-primary" onclick="scrollToAccess()">ابدأ التدريب الآن</button>
                 <button class="btn btn-secondary" onclick="document.getElementById('content').scrollIntoView({behavior: 'smooth'})">استعرض المحتوى</button>
@@ -249,6 +255,154 @@
                     <span class="feature-icon">⚡</span>
                     <h3>سهل الوصول</h3>
                     <p>متاح 24/7 من أي جهاز وأي مكان</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages-section">
+        <div class="container">
+            <h2 class="section-title">📦 اختر الباقة المناسبة لك</h2>
+            <p class="section-subtitle">حقيبة تدريبية مرنة - صممناها عشان تناسب كل احتياجاتك</p>
+            
+            <div class="packages-grid">
+                <!-- Express Package -->
+                <div class="package-card">
+                    <div class="package-badge" style="background: #22c55e;">🟢 EXPRESS</div>
+                    <h3 class="package-title">ورشة سريعة - يوم واحد</h3>
+                    <div class="package-duration">⏰ 6 ساعات</div>
+                    <ul class="package-features">
+                        <li>✓ مقدمة GenAI + أساسيات</li>
+                        <li>✓ هندسة الأوامر RTF</li>
+                        <li>✓ 10 حالات استخدام فورية</li>
+                        <li>✓ 20 برومبت جاهز</li>
+                    </ul>
+                    <div class="package-target">
+                        <strong>مناسب لـ:</strong> موظفين مشغولين، تجربة سريعة
+                    </div>
+                    <button class="btn btn-package" onclick="window.location.href='#access'">احجز دلوقتي</button>
+                </div>
+
+                <!-- Starter Package -->
+                <div class="package-card">
+                    <div class="package-badge" style="background: #eab308;">🟡 STARTER</div>
+                    <h3 class="package-title">برنامج مبتدئ - يومان</h3>
+                    <div class="package-duration">⏰ 12 ساعة</div>
+                    <ul class="package-features">
+                        <li>✓ أساسيات قوية + تطبيق</li>
+                        <li>✓ RTF & CAR كاملة</li>
+                        <li>✓ المحتوى الإبداعي</li>
+                        <li>✓ 50 برومبت + 30 أداة</li>
+                    </ul>
+                    <div class="package-target">
+                        <strong>مناسب لـ:</strong> الشركات الصغيرة، ميزانيات محدودة
+                    </div>
+                    <button class="btn btn-package" onclick="window.location.href='#access'">احجز دلوقتي</button>
+                </div>
+
+                <!-- Standard Package - Most Popular -->
+                <div class="package-card featured">
+                    <div class="package-badge" style="background: #f97316;">🟠 STANDARD ⭐</div>
+                    <div class="popular-label">الأكثر مبيعاً</div>
+                    <h3 class="package-title">البرنامج القياسي - 3 أيام</h3>
+                    <div class="package-duration">⏰ 18 ساعة</div>
+                    <ul class="package-features">
+                        <li>✓ تغطية شاملة للأساسيات</li>
+                        <li>✓ محتوى إبداعي + تسويق</li>
+                        <li>✓ تحليل بيانات + أتمتة</li>
+                        <li>✓ 80 برومبت + 40 أداة</li>
+                    </ul>
+                    <div class="package-target">
+                        <strong>مناسب لـ:</strong> معظم الشركات المتوسطة
+                    </div>
+                    <button class="btn btn-package btn-primary" onclick="window.location.href='#access'">احجز دلوقتي</button>
+                </div>
+
+                <!-- Comprehensive Package -->
+                <div class="package-card">
+                    <div class="package-badge" style="background: #3b82f6;">🔵 COMPREHENSIVE</div>
+                    <h3 class="package-title">البرنامج الكامل - 4 أيام</h3>
+                    <div class="package-duration">⏰ 24 ساعة</div>
+                    <ul class="package-features">
+                        <li>✓ البرنامج الكامل الشامل</li>
+                        <li>✓ أدوات متقدمة + Agents</li>
+                        <li>✓ مشروع تخرج كامل</li>
+                        <li>✓ 120 برومبت + 50 أداة</li>
+                    </ul>
+                    <div class="package-target">
+                        <strong>مناسب لـ:</strong> الشركات الكبرى، الجامعات
+                    </div>
+                    <button class="btn btn-package" onclick="window.location.href='#access'">احجز دلوقتي</button>
+                </div>
+
+                <!-- Advanced Package -->
+                <div class="package-card">
+                    <div class="package-badge" style="background: #a855f7;">🟣 ADVANCED</div>
+                    <h3 class="package-title">برنامج متقدم - 5-6 أيام</h3>
+                    <div class="package-duration">⏰ 30-36 ساعة</div>
+                    <ul class="package-features">
+                        <li>✓ برنامج متعمق للمحترفين</li>
+                        <li>✓ AI Agents + Automation</li>
+                        <li>✓ بناء Chatbot مخصص</li>
+                        <li>✓ 150+ برومبت كامل</li>
+                    </ul>
+                    <div class="package-target">
+                        <strong>مناسب لـ:</strong> مدراء التحول الرقمي، فرق IT
+                    </div>
+                    <button class="btn btn-package" onclick="window.location.href='#access'">احجز دلوقتي</button>
+                </div>
+
+                <!-- Enterprise Package -->
+                <div class="package-card">
+                    <div class="package-badge" style="background: #1f2937;">⚫ ENTERPRISE</div>
+                    <h3 class="package-title">حل مؤسسي - شهر كامل</h3>
+                    <div class="package-duration">⏰ 40-50 ساعة</div>
+                    <ul class="package-features">
+                        <li>✓ تحول رقمي كامل</li>
+                        <li>✓ نظام AI مخصص</li>
+                        <li>✓ تدريب مدربين (ToT)</li>
+                        <li>✓ محتوى مخصص بالكامل</li>
+                    </ul>
+                    <div class="package-target">
+                        <strong>مناسب لـ:</strong> مؤسسات حكومية، شركات كبرى
+                    </div>
+                    <button class="btn btn-package" onclick="window.location.href='#access'">احجز دلوقتي</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">📸 شوف المدرب وهو بيدرب</h2>
+            <p class="section-subtitle">صور حية من ورش العمل السابقة</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/training-photos/training-1.jpg" alt="ورشة عمل تفاعلية">
+                    <div class="gallery-caption">ورشة عمل تفاعلية - أساسيات GenAI</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/training-photos/training-2.jpg" alt="تطبيق عملي">
+                    <div class="gallery-caption">تطبيق عملي على هندسة الأوامر</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/training-photos/training-3.jpg" alt="مناقشة الحالات">
+                    <div class="gallery-caption">مناقشة الحالات العملية</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/training-photos/training-4.jpg" alt="تحليل البيانات">
+                    <div class="gallery-caption">جلسة تحليل البيانات بالـ AI</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/training-photos/training-5.jpg" alt="عمل جماعي">
+                    <div class="gallery-caption">عمل جماعي على المشاريع</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/training-photos/training-6.jpg" alt="تسليم الشهادات">
+                    <div class="gallery-caption">تسليم الشهادات ونهاية البرنامج</div>
                 </div>
             </div>
         </div>
