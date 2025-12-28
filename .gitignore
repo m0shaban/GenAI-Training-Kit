@@ -105,3 +105,7 @@ test-results/
 *.backup
 old/
 backup/
+
+# Generated style inventory (local debugging)
+training-package/css/_all-classes.txt
+training-package/css/_all-ids.txt
