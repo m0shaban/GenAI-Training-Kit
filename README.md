@@ -4,6 +4,14 @@
 
 <br><br>
 
+<div align="center">
+  <img src="./assets/images/logo.png" alt="GenAI PowerUP Logo" width="300" style="margin: 20px 0;"/>
+  <br>
+  <img src="./assets/images/banner.png" alt="GenAI PowerUP Banner" width="100%" style="border-radius: 15px; box-shadow: 0 8px 32px rgba(99, 102, 241, 0.3);"/>
+</div>
+
+<br><br>
+
 <img src="https://readme-typing-svg.demolab.com?font=Tajawal&weight=700&size=42&duration=3000&pause=800&color=6366F1&center=true&vCenter=true&width=900&height=80&lines=🚀+برنامج+GenAI+PowerUP+التدريبي;💡+احصل+على+نتائج+فورية+من+اليوم+الأول;⚡+وفّر+40%25+من+وقت+الموظفين;📈+ضاعف+الإنتاجية+بدون+تعقيدات+تقنية" alt="Typing Animation" />
 
 <br>
