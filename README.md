@@ -1,12 +1,6 @@
 <div align="center">
 
-<!-- Logo -->
-<img src="./assets/images/logo.png" alt="GenAI PowerUP Logo" width="300" style="margin: 20px 0;"/>
-
-<br>
-
-<!-- Banner -->
-<img src="./assets/images/banner.png" alt="GenAI PowerUP Banner" width="100%" style="border-radius: 15px; box-shadow: 0 8px 32px rgba(99, 102, 241, 0.3);"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Enterprise%20GenAI%20Training%20Kit&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Empowering%20Organizations%20with%20Practical%20AI%20Literacy%20and%20Implementation%20Frameworks&descAlignY=60&descSize=16" />
 
 <br><br>
 
@@ -20,6 +14,13 @@
 ![Arabic](https://img.shields.io/badge/🇪🇬_محتوى_عربي_كامل-EC4899?style=for-the-badge)
 
 <br>
+
+### 🌐 **Enterprise GenAI PowerUP Program**
+
+**We don't teach you "How to use ChatGPT"... We transform your team to work faster and smarter using enterprise-grade AI.**
+This repository serves as the official curriculum, prompt directory, and tool index for the GenAI PowerUP corporate training program.
+
+---
 
 ### 💼 **البرنامج التدريبي الأقوى لتحويل شركتك رقمياً**
 
