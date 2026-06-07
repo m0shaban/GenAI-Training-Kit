@@ -5,7 +5,7 @@
 <br><br>
 
 <div align="center">
-  <img src="./assets/images/logo.png" alt="GenAI PowerUP Logo" width="300" style="margin: 20px 0;"/>
+  <img src="./logo (3).png" alt="GenAI PowerUP Logo" width="300" style="margin: 20px 0;"/>
   <br>
   <img src="./assets/images/banner.png" alt="GenAI PowerUP Banner" width="100%" style="border-radius: 15px; box-shadow: 0 8px 32px rgba(99, 102, 241, 0.3);"/>
 </div>
